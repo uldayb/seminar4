@@ -102,13 +102,3 @@ class BinarySearchTree:
     def __delitem__(self,key):
        self.delete(key)
 
-
-mytree = BinarySearchTree()
-mytree[0]="zero"
-mytree[1]="one"
-mytree[2]="two"
-mytree[3]="three"
-
-print(mytree[0])
-print(mytree[3])
-
